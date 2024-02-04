@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>ODOO</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!--Page CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <!--TinySlider CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    </head>
+    <body>
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/odoo-white.svg" width="80px" alt="Odoo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="navbar-toggler-icon fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Docs</a>
+                        </li>
+                    </ul>
+                    <button class="custom-button button-simple button-small white" type="button">
+                        Sign in
+                    </button>
+                    <button class="custom-button button-white button-small" type="button">
+                        <i class="fa-solid fa-bag-shopping pad-r-1"></i> Buy now
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!--Hero-->
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+
+                    <!--Information Right-->
+                    <div class="col-lg-7 col-md-6 col-sg-12 col-xs-12">
+                        <h1 class="mg-15">Development<br class="display-none">
+                            done right
+                        </h1>
+                        <p class="mg-2 white">
+                            Build a beautiful, modern website with <br class="display-none">
+                            flexible components built from scratch.
+                        </p>
+                        <button class="custom-button button-white button-big mg-1" type="button"> 
+                            Get started <i class="fa-solid fa-plus pad-l-1"></i>
+                        </button>
+                        <div class="p2 white mg-3">
+                            Trusted by: <br class="display-hide">
+                            <img src="images/google-white.svg" alt="google">
+                            <img src="images/spotify-white.svg" alt="spotify">
+                            <img src="images/airbnb-white.svg" alt="air-bnb">
+                            <img src="images/paypal-white.svg" alt="paypal">
+                        </div>
+                    </div>
+
+                    <!--Card Left-->
+                    <div class="col-lg-5 col-md-6 col-sg-12 col-xs-12">
+                        <div class="tc-container">
+                            <div>
+                                <h6 class="float-left">Manage cards</h6>
+                                <button class="custom-button button-small button-outline float-right" type="button">Add new</button>
+                            </div>
+                            <!--Card-->
+                            <div class="tc mg-5">
+                                <div class="tag tag-aqua tag-right">Active</div>
+                                <div class="mg-7">
+                                    <p class="p2 white">CARD NUMBER</p>
+                                    <h4 class="tc-number">4358 - 7421 - 9256 - 6682</h4>
+                                </div>
+                                <div>
+                                    <div class="tc-info">
+                                        <p class="p2 white mg-1">NAME</p>
+                                        <h6 class="white">John Snow</h6>
+                                    </div>
+                                    <div class="tc-info">
+                                        <p class="p2 white mg-1">EXPIRY DATE</p>
+                                        <h6 class="white">11/23</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Payments-->
+                            <div class="payment">
+                                <h6 class="float-left">Starbucks</h6> 
+                                <h6 class="text-right">$5,50 USD</h6>
+                                <p class="p2 grey">Pending - San Francisco, United States</p>
+                            </div>
+                            <div class="payment">
+                                <h6 class="float-left">Nike Sports</h6> 
+                                <h6 class="text-right">$129,00 USD</h6>
+                                <p class="p2 grey">Pending - Lisbon, Portugal</p>
+                            </div>
+                            <button class="custom-button button-small button-simple mg-1" type="button">
+                                View all <i class="fa-solid fa-chevron-right right-arrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="diagonal-hero"></div>
+        </section>
+
+        <!--Description content-->
+        <section>
+            <div class="container">
+
+                <!--Tools-->
+                <div class="row tools-container flex">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 one">
+                        <div class="img project-img over">
+                            <button class="custom-button button-small button-white btn-right" type="button">
+                                Play video <i class="fa-solid fa-play pad-l-1"></i>
+                            </button>
+                        </div>
+                        <div class="projects under mg-7">
+                            <h5>Awesome projects</h5>
+                            <div class="mg-1-5">
+                                <h6>Create the new logo</h6>
+                                <div class="progress">
+                                    <div class="progress-bar width-45" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mg-3">
+                                <h6>Set up the color palette</h6>
+                                <div class="progress">
+                                    <div class="progress-bar width-65" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mg-3">
+                                <h6 class="float-left">Wireframe and prototype</h6>
+                                <h6 class="grey text-right">6:50 <i class="fa-solid fa-chevron-right right-arrow"></i></h6>
+                                <div class="progress">
+                                    <div class="progress-bar width-85" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0 two"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 tools three">
+                        <div class="tag tag-yellow">Tools</div>
+                        <h2 class="mg-2">We build for designers and developers</h2>
+                        <p>
+                            Get components and examples, including tons of variables that will help you grow your business.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Features-->
+                <div class="row features-container">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 features">
+                        <div class="tag tag-aqua">Features</div>
+                        <h2 class="mg-2">Get components that will help you grow your business</h2>
+                        <p>
+                            Get components and examples, including tons of variables that will help you grow your business.
+                        </p>
+                        <p class="aqua">
+                            <i class="fa-solid fa-square-check"></i> Perfect for modern startups 
+                            <br>
+                            <i class="fa-solid fa-square-check"></i> Fully customizable and scalable
+                        </p>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="img features-img">
+                            <button class="custom-button button-small button-white" type="button">
+                                Play video <i class="fa-solid fa-play pad-l-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Technology-->
+                <div class="row technology-container flex">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 mg-6 four">
+                        <!--Photo card-->
+                        <div class="mini-card-container">
+                            <img src="images/person_03.jpg" class="mini-card-photo" alt="person_03">
+                            <div class="mini-card-text">
+                                <div class="float-left">
+                                    <div class="id-circle id-circle-yellow d-inline-block">JH</div>
+                                    <h6 class="d-inline-block">Jimmy Hendrix</h6>
+                                </div>
+                                <h6 class="text-right"><i class="fa-regular fa-heart"></i></h6>
+                            </div>
+                        </div>
+                        <!--Text card-->
+                        <div class="mini-card-container mg-2">
+                            <div class="mini-card-text ">
+                                <div class="float-left">
+                                    <div class="id-circle id-circle-aqua d-inline-block"><i class="fa-solid fa-check"></i></div>
+                                </div>
+                                <h6 class="d-inline-block line-height-0">300+ components</h6>
+                                <p class="p2 grey line-height-8">Build to be customized.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 five">
+                        <!--Airbnb card-->
+                        <div class="mini-card-container">
+                            <div class="mini-card-text text-center">
+                                <img src="images/airbnb.svg" width="100px" class="mg-2" alt="airbnb">
+                                <div class="mg-1-5">
+                                    <i class="fa-regular fa-star yellow"></i>
+                                    <i class="fa-regular fa-star yellow"></i>
+                                    <i class="fa-regular fa-star yellow"></i>
+                                    <i class="fa-regular fa-star yellow"></i>
+                                    <i class="fa-regular fa-star grey"></i>
+                                </div>
+                                <h6 class="mg-1-5">4.95 out of 5 stars</h6>
+                                <p class="p2 grey">from 23 reviews</p>
+                            </div>
+                        </div>
+                        <!--Website UI Kit card-->
+                        <div class="mini-card-container mg-2">
+                            <div class="mini-card-text text-center">
+                                <img src="images/company_01.png" class="id-circle-company mg-1-5" alt="company">
+                                <h6 class="mg-1-5">Website UI Kit</h6>
+                                <div class="photo-container mg-1-5">
+                                    <img src="images/person_01.jpg" class="id-circle-photo" alt="person_01">
+                                    <img src="images/person_02.jpg" class="id-circle-photo" alt="person_02">
+                                    <img src="images/person_03.jpg" class="id-circle-photo" alt="person_03">
+                                </div>
+                                <div class="mg-1-5 grey">
+                                    <i class="fa-solid fa-paperclip web-card-icon"></i>
+                                    <i class="fa-regular fa-eye web-card-icon"></i>
+                                    <i class="fa-regular fa-heart web-card-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0 six"></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 technology seven">
+                        <div class="tag tag-blue">Technology</div>
+                        <h2 class="mg-2">We use the latest technologies on the market</h2>
+                        <p>
+                            Get components and examples, including tons of variables that will help you grow your business.
+                        </p>
+                        <button class="custom-button button-small button-simple" type="button">
+                            See case studies <i class="fa-solid fa-chevron-right right-arrow"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!--Easy to install-->
+                <div class="row install-container">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 install">
+                        <div class="tag tag-yellow">Easy to install</div>
+                        <h2 class="mg-2">Download, install and run</h2>
+                        <p>
+                            Get components and examples, including tons of variables that will help you grow your business.
+                        </p>
+                        <div>
+                            <a href="https://www.apple.com/mx/app-store/" class="store-btn d-inline-block">
+                                <img src="images/appstore_btn.png" width="100%" alt="app store">
+                            </a>
+                            <a href="https://play.google.com/store/games?hl=es_MX&gl=US" class="store-btn d-inline-block">
+                                <img src="images/playstore_btn.png" width="100%" alt="play store">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="img install-img">
+                            <button class="custom-button button-small button-white" type="button">
+                                Play video <i class="fa-solid fa-play pad-l-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                 <!--Infinite solutions-->
+                <div class="row infinite-container">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h3>Infinite solutions</h3>
+                        <p class="white">Intuitive markup, powerful and lightning fast build tools, <br class="display-none">
+                            everything you need to turn your ideas into incredible products.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <button class="custom-button button-big button-white learn-more-btn" type="button">
+                            Learn more <i class="fa-solid fa-chevron-right pad-l-1 right-arrow"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Awards-->
+        <section class="awards-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="tag tag-blue">Awards</div>
+                        <h2 class="mg-2">Awards for design, creativity and innovation on the Internet</h2>
+                    </div>
+                </div>
+                <!--TEST SLIDER-->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="my-slider">
+                            <!--Airbnb card-->
+                            <div>
+                                <a href="https://www.airbnb.mx/" target="_blank">
+                                    <div class="mini-card-container">
+                                        <div class="mini-card-text text-center">
+                                            <img src="images/airbnb.svg" width="100px" class="mg-2" alt="airbnb">
+                                            <div class="mg-1-5">
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star grey"></i>
+                                            </div>
+                                            <h6 class="mg-1-5">4.95 out of 5 stars</h6>
+                                            <p class="p2 grey">from 23 reviews</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Amazon card-->
+                            <div>
+                                <a href="https://www.amazon.com.mx/" target="_blank">
+                                    <div class="mini-card-container">
+                                        <div class="mini-card-text text-center">
+                                            <img src="images/amazon.svg" width="100px" class="mg-2" alt="amazon">
+                                            <p class="p2 grey mg-2">
+                                                They build modern looking websites easily using Tabs.
+                                            </p>
+                                            <button class="custom-button button-small button-simple mg-1">
+                                                Learn more <i class="fa-solid fa-chevron-right pad-l-1 right-arrow"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Slack card-->
+                            <div>
+                                <a href="https://slack.com/intl/es-mx/" target="_blank">
+                                    <div class="mini-card-container">
+                                        <div class="mini-card-text text-center">
+                                            <img src="images/slack.svg" width="100px" class="mg-2" alt="slack">
+                                            <p class="p2 grey mg-2">
+                                                They build modern looking websites easily using Trello.
+                                            </p>
+                                            <button class="custom-button button-small button-simple mg-1">
+                                                Learn more <i class="fa-solid fa-chevron-right pad-l-1 right-arrow"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Spotify card-->
+                            <div>
+                                <a href="https://open.spotify.com/intl-es" target="_blank">
+                                    <div class="mini-card-container">
+                                        <div class="mini-card-text text-center">
+                                            <img src="images/spotify.svg" width="100px" class="mg-2" alt="spotify">
+                                            <div class="mg-1-5">
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star yellow"></i>
+                                                <i class="fa-regular fa-star grey"></i>
+                                            </div>
+                                            <h6 class="mg-1-5">4.95 out of 5 stars</h6>
+                                            <p class="p2 grey">from 23 reviews</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Paypal-->
+                            <div>
+                                <a href="https://www.paypal.com/mx/home" target="_blank">
+                                    <div class="mini-card-container">
+                                        <div class="mini-card-text text-center">
+                                            <img src="images/paypal.svg" width="100px" class="mg-2" alt="paypal">
+                                            <p class="p2 grey mg-2">
+                                                They build modern looking websites easily using Docker.
+                                            </p>
+                                            <button class="custom-button button-small button-simple mg-1">
+                                                Learn more <i class="fa-solid fa-chevron-right pad-l-1 right-arrow"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="diagonal-awards"></div>
+        </section>
+
+        <!--Helpful Answers-->
+        <section class="helpful-answers-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <h2>Helpful answers</h2>
+                        <p>Start building fast, beautiful and modern looking websites in no time.</p>
+                    </div>
+                </div>
+                <div class="row questions-container">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-left-none">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" 
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                        <h6 class="float-left"><i class="fa-regular fa-file pad-r-1"></i> Wich licence do I need?</h6>
+                                        <p class="plus-icon"><i class="fa-solid fa-plus"></i></p>
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum nisl, venenatis eget dui ut, congue elementum sapien. Phasellus egestas lectus pretium rhoncus molestie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        <h6 class="float-left"><i class="fa-regular fa-floppy-disk pad-r-1"></i> How do I get access to my database?</h6>
+                                        <p class="plus-icon"><i class="fa-solid fa-plus"></i></p>
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Curabitur rutrum tellus ipsum, ut sagittis nisi dictum et. Maecenas eget elit in dui aliquet sagittis. Ut enim elit, aliquet at sapien ac, sollicitudin ornare dui.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" 
+                                    aria-expanded="true" aria-controls="collapseThree">
+                                        <h6 class="float-left"><i class="fa-regular fa-folder pad-r-1"></i> How do I see previous orders?</h6>
+                                        <p class="plus-icon"><i class="fa-solid fa-plus"></i></p>
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                        Vestibulum quis lorem eget purus tristique egestas nec quis felis. Donec accumsan vehicula nibh, at luctus tellus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-right-none">
+                        <div class="accordion" id="accordionExample2">
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" 
+                                    aria-expanded="true" aria-controls="collapseFour">
+                                        <h6 class="float-left"><i class="fa-regular fa-file pad-r-1"></i> Wich licence do I need?</h6>
+                                        <p class="plus-icon"><i class="fa-solid fa-plus"></i></p>
+                                    </button>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum nisl, venenatis eget dui ut, congue elementum sapien. Phasellus egestas lectus pretium rhoncus molestie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                        <h6 class="float-left"><i class="fa-regular fa-floppy-disk pad-r-1"></i> How do I get access to my database?</h6>
+                                        <p class="plus-icon"><i class="fa-solid fa-plus"></i></p>
+                                    </button>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <p>
+                                            Curabitur rutrum tellus ipsum, ut sagittis nisi dictum et. Maecenas eget elit in dui aliquet sagittis. Ut enim elit, aliquet at sapien ac, sollicitudin ornare dui.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                        <h6 class="float-left"><i class="fa-regular fa-folder pad-r-1"></i> How do I see previous orders?</h6>
+                                        <p class="plus-icon"><i class="fa-solid fa-plus"></i></p>
+                                    </button>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <p>
+                                        Vestibulum quis lorem eget purus tristique egestas nec quis felis. Donec accumsan vehicula nibh, at luctus tellus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--New project-->
+        <section class="new-project-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <h2>I want to start a new project</h2>
+                        <div class="mg-3">
+                            <button class="custom-button button-blue button-big btn-margin">
+                                Buy now <i class="fa-solid fa-chevron-right pad-l-1 right-arrow"></i>
+                            </button>
+                            <button class="custom-button button-simple button-big btn-margin">
+                                Learn more <i class="fa-solid fa-chevron-right pad-l-1 right-arrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        
+        <footer class="footer-container">
+            <div class="diagonal-footer"></div>
+            <div class="container footer">
+                <div class="row footer-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h3>Brilliant solutions for your ideas</h3>
+                        <p class="mg-0">Modern looking websites</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 footer-buttons">
+                        <button class="custom-button button-big button-white btn-margin">
+                            Documentation
+                        </button>
+                        <button class="custom-button button-big button-blue">
+                            Purchase now
+                        </button>
+                    </div>
+                </div>
+                <div class="row footer-row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <img src="images/odoo-white.svg" width="100px" alt="Odoo">
+                        <p class="p2 mg-3 grey">
+                            Odoo attempts to bring the best development experience to designers and developers by offering the tools for having a quick and solid start in most web projects.
+                        </p>
+                        <div class="mg-2">
+                            <a class="d-inline-block social-icons" href="https://dribbble.com/tags/odoo" target="_blank">
+                                <p><i class="fa-brands fa-dribbble"></i></p>
+                            </a>
+                            <a class="d-inline-block social-icons" href="https://github.com/odoo/odoo" target="_blank">
+                                <p><i class="fa-brands fa-github"></i></p>
+                            </a>
+                            <a class="d-inline-block social-icons" href="https://www.instagram.com/odoo.official" target="_blank">
+                                <p><i class="fa-brands fa-instagram"></i></p>
+                            </a>
+                            <a class="d-inline-block social-icons" href="https://www.facebook.com/odoo" target="_blank">
+                                <p><i class="fa-brands fa-facebook"></i></p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-0 col-sm-0 col-xs-0 display-none">
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 menu">
+                        <h6 class="white">Account</h6>
+                        <div class="mg-1">
+                            <a class="footer-menu" href="#"><p class="p2 grey">Profile <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Settings <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Billing <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Notifications</p></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 menu">
+                        <h6 class="white">About</h6>
+                        <div class="mg-1">
+                            <a class="footer-menu" href="#"><p class="p2 grey">Services <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Pricing <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Contact <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Careers</p></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 menu">
+                        <h6 class="white">Company</h6>
+                        <div class="mg-1">
+                            <a class="footer-menu" href="#"><p class="p2 grey">Comunity <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Help center <br></p></a>
+                            <a class="footer-menu" href="#"><p class="p2 grey">Support</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-2">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <p class="p2 grey">&#169; <b class="white">Odoo.</b> All rights reserved</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-2-menu">
+                        <a href="#" target="_blank"><p class="p2 grey">Terms</p></a>
+                        <a href="#" target="_blank"><p class="p2 grey">Privacy</p></a>
+                        <a href="#" target="_blank"><p class="p2 grey">Cookies</p></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+
+    
+
+        <!--JS-->
+
+        <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+       
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/e615316632.js" crossorigin="anonymous"></script>
+
+        <!--TinySlider JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+        <script type="module">  
+            var slider = tns({
+                container: '.my-slider',
+                items: 4,
+                slideBy: '1',
+                autoplay: true,
+                mouseDrag: true,
+                navPosition: 'bottom',
+                controls: false,
+                autoplayButtonOutput: false,
+                navAsThumbnails: true,
+                responsive: {
+                    200: {
+                        items: 1
+                    },
+                    576: {
+                        edgePadding: 20,
+                        gutter: 20,
+                        items: 2
+                    },
+                    768: {
+                        items: 3,
+                        gutter: 20
+                    },
+                    991: {
+                        items: 4
+                    },
+                    1200: {
+                        items:4
+                    }
+                }
+              
+            });
+        </script>
+        
+    </body>
+</html>
